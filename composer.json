@@ -1,5 +1,5 @@
 {
-    "name": "amp/pdfcrowd-bundle",
+    "name": "kinncj/pdfcrowd-bundle",
     "type": "symfony-bundle",
     "description": "A Symfony2 bundle for working with the PDFCrowd API",
     "keywords": ["pdfcrowd", "pdf"],
@@ -9,27 +9,16 @@
         {
             "name": "Hubert Perron",
             "email": "hubert.perron@gmail.com"
-        }
-    ],
-    "repositories": [
+        },
         {
-            "type": "package",
-            "package": {
-                "name": "pdfcrowd/pdfcrowd-php",
-                "version": "2.5",
-                "dist": {
-                    "url": "http://pdfcrowd.com/static/clients/php/pdfcrowd-2.5-php.zip",
-                    "type": "zip"
-                },
-                "autoload": {
-                    "files": ["pdfcrowd.php"]
-                }
-            }
+            "name": "Kinn Coelho Juliao",
+            "email": "kinncj@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "pdfcrowd/pdfcrowd-php": "2.5",
-        "symfony/symfony": "2.*"
+        "symfony/symfony": "2.*",
+        "radweb/pdfcrowd-php": "dev-master"
     },
     "autoload": {
         "psr-0": { "Amp\\PDFCrowdBundle": "" }

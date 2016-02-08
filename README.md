@@ -9,27 +9,9 @@ This bundle act as a thin wrapper over the PDFCrowd API to ease integration with
 
 ### Using composer
 
-    {
-        "repositories": [
-            {
-                "type": "package",
-                "package": {
-                    "name": "pdfcrowd/pdfcrowd-php",
-                    "version": "2.5",
-                    "dist": {
-                        "url": "http://pdfcrowd.com/static/clients/php/pdfcrowd-2.5-php.zip",
-                        "type": "zip"
-                    },
-                    "autoload": {
-                        "files": ["pdfcrowd.php"]
-                    }
-                }
-            }
-        ],
-        "require": {
-            "amp/pdfcrowd-bundle": "dev-master"
-        }
-    }
+```bash
+$ composer require kinncj/pdfcrowd-bundle
+```
 
 ### Add the bundle to your application kernel
 
